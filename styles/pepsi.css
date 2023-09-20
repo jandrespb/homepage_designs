@@ -11,3 +11,10 @@ body{
     font-size: 16px;
     background: #E4DFDE;
 }
+
+.container {
+    margin: 20px;
+    width: 90%;
+    max-width: 1000px;
+    background: #808284;
+}
