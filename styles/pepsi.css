@@ -18,3 +18,26 @@ body{
     max-width: 1000px;
     background: #808284;
 }
+
+.pepsi-home-container {
+    background: #AD99BF;
+}
+
+header .pepsi-header {
+    width: 100%;
+    padding: 20px;
+    background: #398FCA;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-logo {
+    background: red;
+}
+
+.img-logo img{
+   width: 70%;
+}
