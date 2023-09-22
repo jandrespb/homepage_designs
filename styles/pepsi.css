@@ -36,8 +36,63 @@ header .pepsi-header {
 
 .img-logo {
     background: red;
+    margin-left: 20px;
 }
 
 .img-logo img{
-   width: 70%;
+   width: 60%;
+}
+
+.pepsi-header-list {
+    background: green;
+}
+
+.pepsi-header-list nav a{
+    margin-left: 20px;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.pepsi-body {
+    background: #CAC18F;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+.pepsi-article {
+    width: 60%;
+    background: #90869B;
+}
+
+.pepsi-photo {
+    width: 40%;
+    background: #AADBDC;
+}
+
+.pepsi-photos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pepsi-photos .pepsi-img-principal {
+    background: orange;
+    width: 60%;
+}
+
+.pepsi-photos .pepsi-img-principal img {
+    width: 100%;
+
+}
+
+.pepsi-photos .pepsi-redsocial {
+   width: 40%;
+}
+
+.pepsi-photos .pepsi-redsocial .pepsi-cont-redsocial {
+    display: flex;
+    flex-direction: column;
 }
