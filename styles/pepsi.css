@@ -133,32 +133,19 @@ header .pepsi-header {
     width: 30%;
     background: red;
 }
-
-.pepsi-redsocial .pepsi-cont-redsocial {
-    position: absolute;
-    top: 50%;
-    right: 290px;
-    transform: translateY(-40%);
+.pepsi-redsocial .peps-icon-social {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    transform: translateY(120px);
 }
 
-.pepsi-redsocial .pepsi-cont-redsocial li{
-    list-style: none;
+.pepsi-redsocial .peps-icon-social a {
+    text-decoration: none;
+    padding: 10px 0px;
+    color: #fff;
 }
 
-.pepsi-redsocial .pepsi-cont-redsocial li a {
-    display: inline-block;
-    filter: invert(1);
-    margin: 3px 0;
-    transform: scale(0.5);
+.pepsi-redsocial .peps-icon-social a i {
+    font-size: 20px;
 }
-
-.pepsi-cont-redsocial .pepsi-facebook{
-    margin-left: 10px;
-}
-
-
-
