@@ -149,3 +149,23 @@ header .pepsi-header {
 .pepsi-redsocial .peps-icon-social a i {
     font-size: 20px;
 }
+
+.pepsi-footer {
+    width: 100%;
+    background: #DE944F;
+}
+
+.pepsi-footer .pepsi-sodas {
+    display: flex;
+    justify-content: center
+}
+.pepsi-footer .pepsi-sodas .pepsi-footer {
+    width: 60px;
+    height: 80px;
+    background: green;
+    padding: 0px 10px;
+}
+
+.pepsi-footer .pepsi-sodas .pepsi-footer img {
+    width: 100%;
+}
