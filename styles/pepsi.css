@@ -16,17 +16,15 @@ body{
     margin: 20px;
     width: 90%;
     max-width: 1000px;
-    background: #808284;
 }
 
 .pepsi-home-container {
-    background: #AD99BF;
+    background: #0062be;
 }
 
 header .pepsi-header {
     width: 100%;
     padding: 20px;
-    background: #398FCA;
     font-size: 16px;
     color: #fff;
     display: flex;
@@ -35,7 +33,6 @@ header .pepsi-header {
 }
 
 .img-logo {
-    background: red;
     margin-left: 20px;
 }
 
@@ -43,11 +40,9 @@ header .pepsi-header {
    width: 60%;
 }
 
-.pepsi-header-list {
-    background: green;
-}
 
 .pepsi-header-list nav a{
+    color: #fff;
     margin-left: 20px;
     font-size: 1em;
     font-weight: 500;
@@ -55,26 +50,23 @@ header .pepsi-header {
 }
 
 .pepsi-body {
-    background: #CAC18F;
     width: 100%;
     padding: 20px;
     display: flex;
     
 }
 
+/*Section left - Article news*/
 .pepsi-article {
     width: 70%;
-    background: #90869B;
 }
 
 .pepsi-article .pepsi-message {
     width: 100%;
     padding: 20px 0px;
-    background: #398FCA;
 }
 
 .pepsi-article .pepsi-message article {
-    background: #EEF09E;
     padding-left: 20px;
     padding-right: 100px;
     font-size: 20px;
@@ -100,9 +92,9 @@ header .pepsi-header {
 }
 
 .pepsi-article .pepsi-message article a {
-    background: orange;
+    background: #fff;
     font-weight: 500;
-    color: #fff;
+    color: #111;
     text-decoration: none;
     padding: 10px;
     font-size: 0.7em;
@@ -110,9 +102,9 @@ header .pepsi-header {
     text-transform: uppercase;
 }
 
+/* Section rigth image and sociaal network*/
 .pepsi-photo {
     width: 30%;
-    background: #AADBDC;
 }
 
 .pepsi-photo .pepsi-photos {
@@ -131,7 +123,6 @@ header .pepsi-header {
 
 .pepsi-photos .pepsi-redsocial {
     width: 30%;
-    background: red;
 }
 .pepsi-redsocial .peps-icon-social {
     display: flex;
@@ -150,9 +141,10 @@ header .pepsi-header {
     font-size: 20px;
 }
 
+/*section - footer*/
+
 .pepsi-footer {
     width: 100%;
-    background: #DE944F;
 }
 
 .pepsi-footer .pepsi-sodas {
@@ -162,8 +154,8 @@ header .pepsi-header {
 .pepsi-footer .pepsi-sodas .pepsi-footer {
     width: 60px;
     height: 80px;
-    background: green;
     padding: 0px 10px;
+    margin-bottom: 20px;
 }
 
 .pepsi-footer .pepsi-sodas .pepsi-footer img {
