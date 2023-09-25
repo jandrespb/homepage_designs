@@ -161,3 +161,21 @@ header .pepsi-header {
 .pepsi-footer .pepsi-sodas .pepsi-footer img {
     width: 100%;
 }
+
+.pepsi-footer .pepsiBlue:hover {
+    transition: 0.5s;
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+.pepsi-footer .pepsiSilver:hover {
+    transition: 0.5s;
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+.pepsi-footer .pepsiBlack:hover {
+    transition: 0.5s;
+    transform: translateY(-15px);
+    cursor: pointer;
+}
