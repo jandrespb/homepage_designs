@@ -1,0 +1,33 @@
+
+.starbuck-home-container{
+    background: #907A66;
+}
+
+header .starbuck-header {
+    width: 100%;
+    background: #AFAFA5;
+    padding: 20px;
+    color: #343433;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.st-img-logo {
+    width: 80px;
+    height: 80px;
+    background: green;
+}
+
+.st-img-logo img {
+    width: 100%;
+}
+
+.starbuck-header-list nav a {
+    color: #343433;
+    margin-left: 20px;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: 500;
+}
