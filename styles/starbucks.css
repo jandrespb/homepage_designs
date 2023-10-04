@@ -31,3 +31,59 @@ header .starbuck-header {
     text-decoration: none;
     font-weight: 500;
 }
+
+/* Section Body */
+
+.starbuck-body {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+
+/* Section Body - Left */
+.starbuck-article {
+    width: 65%;
+}
+
+/* Section Body - Rigth */
+.starbuck-photo {
+    width: 35%;
+    background: #57B1CB;
+}
+
+.starbuck-photo .starbuck-photos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.starbuck-photo .starbuck-photos .starbuck-img-principal {
+    width: 90%;
+}
+
+.starbuck-photo .starbuck-photos .starbuck-img-principal img {
+    width: 100%;
+}
+
+.starbuck-photo .starbuck-redsocial {
+    width: 10%;
+}
+
+.starbuck-redsocial .starbuck-icon-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    transform: translateY(120px);
+}
+
+.starbuck-redsocial .starbuck-icon-social a {
+    text-decoration: none;
+    padding: 10px 0px;
+    color: #fff;
+}
+
+.starbuck-redsocial .starbuck-icon-social a i {
+    font-size: 20px;
+}
