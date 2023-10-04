@@ -43,6 +43,48 @@ header .starbuck-header {
 /* Section Body - Left */
 .starbuck-article {
     width: 65%;
+    background: #AD86DB;
+}
+
+.starbuck-article .starbuck-message {
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: 40px;
+}
+
+.starbuck-article .starbuck-message article {
+    font-size: 20px;
+    padding-right: 100px;
+}
+
+.starbuck-article .starbuck-message article h2 {
+    color: #000;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+
+.starbuck-article .starbuck-message article h2 span {
+    color: #2B6F4F;
+    font-size: 1.3em;
+    font-weight: 900;
+}
+
+.starbuck-article .starbuck-message p {
+    font-size: 0.9em;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+.starbuck-article .starbuck-message article a {
+    background: #2B6F4F;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-size: 0.6em;
+    border-radius: 20px;
+    text-transform: uppercase;
 }
 
 /* Section Body - Rigth */
@@ -86,4 +128,26 @@ header .starbuck-header {
 
 .starbuck-redsocial .starbuck-icon-social a i {
     font-size: 20px;
+}
+
+/* Section Footer */
+.starbuck-footer {
+    width: 100%;
+}
+
+.starbuck-footer .starbuck-coffee {
+    background: #57B1CB;
+    display: flex;
+    justify-content: center;
+}
+
+.starbuck-footer .starbuck-coffee .starbuck-footer-img{
+    width: 55px;
+    height: 75px;
+    background: #2B6F4F;
+    margin-left: 20px;
+}
+
+.starbuck-footer .starbuck-coffee .starbuck-footer-img img {
+    width: 100%;
 }
