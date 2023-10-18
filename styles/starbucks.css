@@ -1,6 +1,7 @@
 
 .starbuck-home-container{
     background: #907A66;
+    position: relative;
 }
 
 header .starbuck-header {
@@ -97,7 +98,7 @@ header .starbuck-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-
+    position: relative;
 }
 
 .starbuck-photo .starbuck-photos .starbuck-img-principal {
@@ -146,8 +147,20 @@ header .starbuck-header {
     height: 75px;
     background: #2B6F4F;
     margin-left: 20px;
+    position: relative;
 }
 
 .starbuck-footer .starbuck-coffee .starbuck-footer-img img {
+    width: 90%;
+}
+
+/* font middle - circle */
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(550px at right 750px);
 }
