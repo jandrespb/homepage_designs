@@ -1,12 +1,11 @@
 
 .starbuck-home-container{
-    background: #907A66;
+    background: #DBDDDB;
     position: relative;
 }
 
 header .starbuck-header {
     width: 100%;
-    background: #AFAFA5;
     padding: 20px;
     color: #343433;
     font-size: 16px;
@@ -18,7 +17,6 @@ header .starbuck-header {
 .st-img-logo {
     width: 80px;
     height: 80px;
-    background: green;
 }
 
 .st-img-logo img {
@@ -44,7 +42,6 @@ header .starbuck-header {
 /* Section Body - Left */
 .starbuck-article {
     width: 65%;
-    background: #AD86DB;
 }
 
 .starbuck-article .starbuck-message {
@@ -66,7 +63,7 @@ header .starbuck-header {
 }
 
 .starbuck-article .starbuck-message article h2 span {
-    color: #2B6F4F;
+    color: #017143;
     font-size: 1.3em;
     font-weight: 900;
 }
@@ -91,7 +88,6 @@ header .starbuck-header {
 /* Section Body - Rigth */
 .starbuck-photo {
     width: 35%;
-    background: #57B1CB;
 }
 
 .starbuck-photo .starbuck-photos {
@@ -137,7 +133,6 @@ header .starbuck-header {
 }
 
 .starbuck-footer .starbuck-coffee {
-    background: #57B1CB;
     display: flex;
     justify-content: center;
 }
@@ -145,8 +140,8 @@ header .starbuck-header {
 .starbuck-footer .starbuck-coffee .starbuck-footer-img{
     width: 55px;
     height: 75px;
-    background: #2B6F4F;
     margin-left: 20px;
+    margin-bottom: 20px;
     position: relative;
 }
 
@@ -162,5 +157,5 @@ header .starbuck-header {
     width: 100%;
     height: 100%;
     background: #017143;
-    clip-path: circle(550px at right 750px);
+    clip-path: circle(500px at right 730px);
 }
