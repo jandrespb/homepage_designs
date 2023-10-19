@@ -149,6 +149,24 @@ header .starbuck-header {
     width: 90%;
 }
 
+.starbuck-footer .drink-green:hover {
+    transition: 0.5s;
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+.starbuck-footer .drink-pink:hover {
+    transition: 0.5s;
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+.starbuck-footer .drink-fuchsia:hover {
+    transition: 0.5s;
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
 /* font middle - circle */
 .circle {
     position: absolute;

@@ -85,8 +85,8 @@
 
         <!-- section starbuck-->
         <section class="home-starbucks">
-            <div class="starbuck-home-container">
-                <div class="circle"></div>
+            <div class="starbuck-home-container" id="fontStarbuckPrincipal">
+                <div class="circle" id="fontCircle"></div>
                 <header>
                     <div class="starbuck-header">
                         <div class="st-img-logo">
@@ -108,9 +108,9 @@
                     <div class="starbuck-article">
                         <div class="starbuck-message">
                             <article>
-                                <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
+                                <h2 id="starbuckTitle">It's not just Coffee<br>It's <span id="starbuckTitlePrincipal">Starbucks</span></h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit quibusdam quia, eum tempore, nemo quasi facilis quidem corrupti dolorum veniam nesciunt vel eos labore unde possimus atque ab officia dolores?</p>
-                                <a href="#">learn more</a>
+                                <a href="#" id="buttonLearnMore">learn more</a>
                             </article>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                     <div class="starbuck-photo">
                         <div class="starbuck-photos">
                             <div class="starbuck-img-principal">
-                                <img src="images/starbucks/img1.png" alt="">
+                                <img src="images/starbucks/img1.png" id="coffeePrincipal" alt="">
                             </div>
 
                             <div class="starbuck-redsocial">
@@ -137,15 +137,15 @@
                 <div class="starbuck-footer">
                     <footer>
                         <div class="starbuck-coffee">
-                            <div class="starbuck-footer-img">
+                            <div class="starbuck-footer-img drink-green" id="coffeeGreen">
                                 <a href="#"><img src="images/starbucks/thumb1.png" alt=""></a>
                             </div>
 
-                            <div class="starbuck-footer-img">
+                            <div class="starbuck-footer-img drink-pink" id="coffeePink">
                                 <a href="#"><img src="images/starbucks/thumb2.png" alt=""></a>
                             </div>
                             
-                            <div class="starbuck-footer-img">
+                            <div class="starbuck-footer-img drink-fuchsia" id="coffeeFuchsia">
                                 <a href="#"><img src="images/starbucks/thumb3.png" alt=""></a>
                             </div>
                         </div>
@@ -155,5 +155,6 @@
         </section>
     </div>
     <script src="js/pepsi.js"></script>
+    <script src="js/starbuck.js"></script>
 </body>
 </html>
