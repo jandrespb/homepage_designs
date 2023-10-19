@@ -8,6 +8,12 @@ const buttonLearnMore = document.querySelector('#buttonLearnMore');
 const backgroundCircle = document.querySelector('#fontCircle');
 const backgroundPrincipal = document.querySelector('#fontStarbuckPrincipal');
 
+let colorOne;   
+let colorTwo;   
+let colorThree;
+let colorFour;
+let imageBigSize;
+
 // Methods that we can change on our page
 const titleArticleCoffee = (colorArticleTitle, colorTitle) => {
     articleTitleStarbuck.style.color = `#${colorArticleTitle}`;
@@ -31,30 +37,42 @@ const changeImagePrincipal = (namePhoto) => {
 // Events button
 
 coffeeLemon.addEventListener('click', () => {
-    backgroundPage('DBDDDB', '017143');
-    titleArticleCoffee('000','017143');
-    learnMoreButton('2B6F4F','fff');
-    changeImagePrincipal('img1');
+
+    colorOne = 'fff'; // white
+    colorTwo = 'DBDDDB'; // silver clear
+    colorThree = '017143'; // green
+    colorFour = '000'; // black
+    imageBigSize = 'img1';
+
+    backgroundPage(colorTwo, colorThree);
+    titleArticleCoffee(colorFour, colorThree);
+    learnMoreButton(colorThree, colorOne);
+    changeImagePrincipal(imageBigSize);
 });
 
 coffeeGum.addEventListener('click', () => {
+
+    colorOne = 'fff'; // white
+    colorTwo = 'DEADD8'; // pink light
+    colorThree = '636062'; // gray
+    imageBigSize = 'img2';
     
-    backgroundPage('fff', 'DEADD8');
-    titleArticleCoffee('636062','DEADD8');
-    learnMoreButton('DEADD8','fff');
-    changeImagePrincipal('img2');
+    backgroundPage(colorOne, colorTwo);
+    titleArticleCoffee(colorThree, colorTwo);
+    learnMoreButton(colorTwo, colorOne);
+    changeImagePrincipal(imageBigSize);
 });
 
 coffeeBerry.addEventListener('click', () => {
 
-    const colorBlue = '5CCBF5';
-    const colorLightPink = 'F3E7F4';
-    const colorGray = '706171';
-    const colorWhite = 'fff';
-    const image = 'img3';
+    colorOne = '5CCBF5'; // Blue
+    colorTwo = 'F3E7F4'; // pink light
+    colorThree = '706171'; // purple dark
+    colorFour = 'fff'; // white
+    imageBigSize = 'img3';
 
-    backgroundPage(colorLightPink, colorBlue);
-    titleArticleCoffee(colorGray, colorBlue);
-    learnMoreButton(colorBlue, colorWhite);
-    changeImagePrincipal(image);
+    backgroundPage(colorTwo, colorOne);
+    titleArticleCoffee(colorThree, colorOne);
+    learnMoreButton(colorOne, colorFour);
+    changeImagePrincipal(imageBigSize);
 });
