@@ -1,32 +1,29 @@
 
-const pepsi_blue = document.querySelector('#sodaBlue');
-const pepsi_silver = document.querySelector('#sodaSilver');
-const pepsi_black = document.querySelector('#sodaBlack');
+const pepsiBlue = document.querySelector('#sodaBlue');
+const pepsiSilver = document.querySelector('#sodaSilver');
+const pepsiBlack = document.querySelector('#sodaBlack');
+const principalImagePepsi = document.getElementById('sodaImage');
+const fontScreenHome = document.getElementById('homeContainer');
 
+const changeColorScreenHome = (color) => {
+    return fontScreenHome.style.backgroundColor = `#${color}`;
+}
 
-pepsi_blue.addEventListener('click', () => {
+const changeImagePrincipal = (image) => {
+    return principalImagePepsi.src = `images/pepsi/${image}.png`;
+}
 
-    const imagen = document.getElementById('sodaImage');
-    const background_home = document.getElementById('homeContainer');
-    background_home.style.backgroundColor = '#0062be';
-    imagen.src = 'images/pepsi/pepsi001.png';
-
+pepsiBlue.addEventListener('click', () => {
+    changeColorScreenHome('0062be'); // blue
+    changeImagePrincipal('pepsi001');
 });
 
-pepsi_silver.addEventListener('click', () => {
-
-    const imagen = document.getElementById('sodaImage');
-    const background_home = document.getElementById('homeContainer');
-    background_home.style.backgroundColor = '#e60c2c';
-    imagen.src = 'images/pepsi/pepsi002.png';
-
+pepsiSilver.addEventListener('click', () => {
+    changeColorScreenHome('e60c2c'); // red
+    changeImagePrincipal('pepsi002');
 });
 
-pepsi_black.addEventListener('click', () => {
-
-    const imagen = document.getElementById('sodaImage');
-    const background_home = document.getElementById('homeContainer');
-    background_home.style.backgroundColor = '#1e1e1e';
-    imagen.src = 'images/pepsi/pepsi003.png';
-
+pepsiBlack.addEventListener('click', () => {
+    changeColorScreenHome('1e1e1e'); // black
+    changeImagePrincipal('pepsi003');
 });

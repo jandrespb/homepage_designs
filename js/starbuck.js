@@ -55,12 +55,11 @@ coffeeGum.addEventListener('click', () => {
     colorOne = 'fff'; // white
     colorTwo = 'DEADD8'; // pink light
     colorThree = '636062'; // gray
-    imageBigSize = 'img2';
     
     backgroundPage(colorOne, colorTwo);
     titleArticleCoffee(colorThree, colorTwo);
     learnMoreButton(colorTwo, colorOne);
-    changeImagePrincipal(imageBigSize);
+    changeImagePrincipal('img2');
 });
 
 coffeeBerry.addEventListener('click', () => {
