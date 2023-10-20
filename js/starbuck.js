@@ -15,22 +15,23 @@ let colorFour;
 let imageBigSize;
 
 // Methods that we can change on our page
+
 const titleArticleCoffee = (colorArticleTitle, colorTitle) => {
     articleTitleStarbuck.style.color = `#${colorArticleTitle}`;
     titleStarbuck.style.color = `#${colorTitle}`;
 }
 
-const backgroundPage = (colorFont, colorCircle) => {
+const backgroundPageCoffee = (colorFont, colorCircle) => {
     backgroundPrincipal.style.backgroundColor = `#${colorFont}`;
     backgroundCircle.style.backgroundColor = `#${colorCircle}`;
 }
 
-const learnMoreButton = (colorFont, colorLetter) => {
+const learnMoreButtonCoffee = (colorFont, colorLetter) => {
     buttonLearnMore.style.backgroundColor = `#${colorFont}`;
     buttonLearnMore.style.color = `#${colorLetter}`
 }
 
-const changeImagePrincipal = (namePhoto) => {
+const changeImagePrincipalCoffee = (namePhoto) => {
     imagePrincipal.src = `images/starbucks/${namePhoto}.png`;
 }
 
@@ -44,10 +45,11 @@ coffeeLemon.addEventListener('click', () => {
     colorFour = '000'; // black
     imageBigSize = 'img1';
 
-    backgroundPage(colorTwo, colorThree);
+    backgroundPageCoffee(colorTwo, colorThree);
     titleArticleCoffee(colorFour, colorThree);
-    learnMoreButton(colorThree, colorOne);
-    changeImagePrincipal(imageBigSize);
+    learnMoreButtonCoffee(colorThree, colorOne);
+    changeImagePrincipalCoffee(imageBigSize);
+   
 });
 
 coffeeGum.addEventListener('click', () => {
@@ -55,11 +57,12 @@ coffeeGum.addEventListener('click', () => {
     colorOne = 'fff'; // white
     colorTwo = 'DEADD8'; // pink light
     colorThree = '636062'; // gray
+    imageBigSize = 'img2';
     
-    backgroundPage(colorOne, colorTwo);
+    backgroundPageCoffee(colorOne, colorTwo);
     titleArticleCoffee(colorThree, colorTwo);
-    learnMoreButton(colorTwo, colorOne);
-    changeImagePrincipal('img2');
+    learnMoreButtonCoffee(colorTwo, colorOne);
+    changeImagePrincipalCoffee(imageBigSize);
 });
 
 coffeeBerry.addEventListener('click', () => {
@@ -70,8 +73,8 @@ coffeeBerry.addEventListener('click', () => {
     colorFour = 'fff'; // white
     imageBigSize = 'img3';
 
-    backgroundPage(colorTwo, colorOne);
+    backgroundPageCoffee(colorTwo, colorOne);
     titleArticleCoffee(colorThree, colorOne);
-    learnMoreButton(colorOne, colorFour);
-    changeImagePrincipal(imageBigSize);
+    learnMoreButtonCoffee(colorOne, colorFour);
+    changeImagePrincipalCoffee(imageBigSize);
 });
