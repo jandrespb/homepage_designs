@@ -5,25 +5,25 @@ const pepsiBlack = document.querySelector('#sodaBlack');
 const principalImagePepsi = document.getElementById('sodaImage');
 const fontScreenHome = document.getElementById('homeContainer');
 
-const changeColorScreenHome = (color) => {
+const changeColorScreenHomePepsi = (color) => {
     return fontScreenHome.style.backgroundColor = `#${color}`;
 }
 
-const changeImagePrincipal = (image) => {
+const changeImagePrincipalPepsi = (image) => {
     return principalImagePepsi.src = `images/pepsi/${image}.png`;
 }
 
 pepsiBlue.addEventListener('click', () => {
-    changeColorScreenHome('0062be'); // blue
-    changeImagePrincipal('pepsi001');
+    changeColorScreenHomePepsi('0062be'); // blue
+    changeImagePrincipalPepsi('pepsi001');
 });
 
 pepsiSilver.addEventListener('click', () => {
-    changeColorScreenHome('e60c2c'); // red
-    changeImagePrincipal('pepsi002');
+    changeColorScreenHomePepsi('e60c2c'); // red
+    changeImagePrincipalPepsi('pepsi002');
 });
 
 pepsiBlack.addEventListener('click', () => {
-    changeColorScreenHome('1e1e1e'); // black
-    changeImagePrincipal('pepsi003');
+    changeColorScreenHomePepsi('1e1e1e'); // black
+    changeImagePrincipalPepsi('pepsi003');
 });
